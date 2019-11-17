@@ -1,1 +1,0 @@
-function hideMenu(){$(".header__nav ul").slideUp()}$(".header__nav_btn").click(function(){$(".header__nav .mobile_menu").slideToggle()}),$(document).click(function(e){!$(e.target).closest(".header").length>0&&hideMenu()}),$(".header__nav .mobile_menu a ").click(function(){hideMenu()});
